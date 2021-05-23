@@ -22,10 +22,10 @@ public class Graph
     {
         if(!adj.containsKey(vertex1))
             adj.put(vertex1, new HashSet<>());
-        vertices++;
+            vertices++;
         if(!adj.containsKey(vertex1))
             adj.put(vertex1, new HashSet<>());
-        vertices++;
+            vertices++;
         adj.get(vertex1).add(vertex2);
         adj.get(vertex1).add(vertex2);
         edges++;
