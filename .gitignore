@@ -1,0 +1,10 @@
+﻿### Java ###
+*.class
+
+### Gradle ###
+.gradle
+/build/
+
+### Intellij ###
+.idea
+/out/
